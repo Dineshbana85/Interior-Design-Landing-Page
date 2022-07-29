@@ -1,0 +1,174 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.main-div{
+  width: 1200px;
+  height: 800px;
+  background-image: url(./photos/bt-interior.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  margin: -40px 155px;
+}
+.logo{
+  margin: -18px 20px;
+  color: #FFF;
+
+}
+.navbar{
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items{
+  position: relative;
+    right: 13%;
+    color: #FFF;
+    top: -12%;
+    display: flex;
+    list-style-type: none;
+}
+.nav-item{
+  padding: 0 22px;
+  font-size: 18px;
+}
+.contact{
+  display: flex;
+    margin: -10px 36px;
+}
+.line{
+  color: #FFF;
+  position: absolute;
+  top: 15%;
+  left: 28%;
+}
+
+
+.phoneImg{
+  height: 32px;
+    margin-right: 12px;
+    margin-top: 13px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 37%;
+    padding: 5px 12px;
+
+}
+.contact p{
+  color: #FFF;
+
+}
+
+.center-section{
+  display: flex;justify-content: space-between;
+}
+.left{
+  top: 36px;
+  position: relative;
+  left: 95px;
+}
+.left h2{
+  margin: 90px  -25px;
+  color: #FFF;
+  font-size: 71px;
+  font-weight: 500;
+}
+.learn{
+  border-radius: 46px;
+    padding: 15px 39px;
+    color: #FFF;
+    background-color: transparent;
+    border: 3px solid;
+    font-size: larger;
+    font-weight: 600;
+}
+.learn:hover{
+/* background-color: #d6d4d4ce; */
+border: 3px solid #FFF;
+
+color: #b0acac61;
+opacity: 0.9;
+font-weight: 700;
+cursor: pointer;
+}
+.right{
+  right: 141px;
+    position: relative;
+    top: 101px;
+}
+.app{
+  background-color: #b0acac61;
+  position: relative;
+  top: 24px;
+  right: -34px;
+  border: 2px solid #FFF;
+  padding: 10px 23px;
+
+}
+.app p{
+  color: #FFF;
+}
+.app .vectorImg{
+  padding: 0px 10px;
+  border: 2px solid #FFF;
+  background-color: #FFF;
+  border-radius: 39%;
+  margin: 2px 0px;
+}
+  .idea{
+  background-color: #b0acac61;
+  border: 2px solid #FFF;
+  padding: 10px 23px;
+    position: relative;
+      top: 119px;
+      right: 299px;
+  }
+
+  .idea p{
+    color: #FFF;
+  }
+  .idea .ideaImg{
+    padding: 0px 7px;
+    border: 2 solid #FFF;
+    background-color: #FFF;
+    border-radius: 39%;
+    margin: 2px 0px;
+  }
+  .line2{
+    color: #FFF;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: rotate(90deg);
+  }
+  .dot{
+    top: 25%;
+  background-color: #e0dbdb52;
+    right: -59%;
+    position: relative;
+    border-radius: 50%;
+    width: 19px;
+    height: 17px;
+  }
+  .line3{
+    color: #FFF;
+    position: absolute;
+    top: 85%;
+    left: -32%;
+    /* transform: rotate(90deg); */
+  }
+  .dot2{
+    top: 6%;
+    background-color: #e0dbdb52;
+      right: -3%;
+      position: relative;
+      border-radius: 50%;
+      width: 19px;
+      height: 17px;
+  }
